@@ -14,6 +14,7 @@
 		18174F6C2BE0AF2E006F04DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18174F6B2BE0AF2E006F04DB /* Assets.xcassets */; };
 		18174F6F2BE0AF2E006F04DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18174F6D2BE0AF2E006F04DB /* LaunchScreen.storyboard */; };
 		18174F722BE0AF2E006F04DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18174F712BE0AF2E006F04DB /* main.m */; };
+		1829CC392BE4A70500422616 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1829CC382BE4A70500422616 /* MyTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		18174F6E2BE0AF2E006F04DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18174F702BE0AF2E006F04DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18174F712BE0AF2E006F04DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1829CC382BE4A70500422616 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				18174F652BE0AF2D006F04DB /* ViewController.h */,
 				18174F662BE0AF2D006F04DB /* ViewController.m */,
 				18174F682BE0AF2D006F04DB /* Main.storyboard */,
+				1829CC382BE4A70500422616 /* MyTableViewCell.xib */,
 				18174F6B2BE0AF2E006F04DB /* Assets.xcassets */,
 				18174F6D2BE0AF2E006F04DB /* LaunchScreen.storyboard */,
 				18174F702BE0AF2E006F04DB /* Info.plist */,
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18174F6F2BE0AF2E006F04DB /* LaunchScreen.storyboard in Resources */,
+				1829CC392BE4A70500422616 /* MyTableViewCell.xib in Resources */,
 				18174F6C2BE0AF2E006F04DB /* Assets.xcassets in Resources */,
 				18174F6A2BE0AF2D006F04DB /* Main.storyboard in Resources */,
 			);
