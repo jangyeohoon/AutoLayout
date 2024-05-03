@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -38,7 +38,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="390" id="JlY-ww-qc9"/>
                                 </constraints>
-                                <mutableString key="text">LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel</mutableString>
+                                <string key="text">LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -76,6 +76,56 @@
             </objects>
             <point key="canvasLocation" x="19.534883720930232" y="4.5064377682403434"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="fBY-gD-Ohk">
+            <objects>
+                <viewController id="SWj-A0-j6O" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xEB-hp-FrI">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QFc-Du-IxJ">
+                                <rect key="frame" x="45" y="90.999999999999972" width="290" height="463.33333333333326"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제목" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1R-rE-EGI">
+                                        <rect key="frame" x="19" y="19" width="30" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L9M-Qs-f7T">
+                                        <rect key="frame" x="19" y="47.333333333333343" width="252" height="406"/>
+                                        <mutableString key="text">용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내용내용내용내용내내</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="L9M-Qs-f7T" secondAttribute="bottom" constant="10" id="68A-Gd-mH3"/>
+                                    <constraint firstAttribute="width" constant="290" id="DPG-op-LTR"/>
+                                    <constraint firstItem="z1R-rE-EGI" firstAttribute="top" secondItem="QFc-Du-IxJ" secondAttribute="top" constant="19" id="Gqj-hR-fe6"/>
+                                    <constraint firstItem="z1R-rE-EGI" firstAttribute="leading" secondItem="QFc-Du-IxJ" secondAttribute="leading" constant="19" id="Ifv-2I-pya"/>
+                                    <constraint firstAttribute="trailing" secondItem="L9M-Qs-f7T" secondAttribute="trailing" constant="19" id="PEb-ov-2VP"/>
+                                    <constraint firstItem="L9M-Qs-f7T" firstAttribute="top" secondItem="z1R-rE-EGI" secondAttribute="bottom" constant="8" symbolic="YES" id="iwX-ya-plQ"/>
+                                    <constraint firstItem="L9M-Qs-f7T" firstAttribute="leading" secondItem="QFc-Du-IxJ" secondAttribute="leading" constant="19" id="tPZ-vd-fpM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EUa-oy-b26"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EUa-oy-b26" firstAttribute="trailing" secondItem="QFc-Du-IxJ" secondAttribute="trailing" constant="95" id="2Ru-m8-OeT"/>
+                            <constraint firstItem="QFc-Du-IxJ" firstAttribute="top" secondItem="EUa-oy-b26" secondAttribute="top" constant="32" id="BA8-oo-tJa"/>
+                            <constraint firstItem="QFc-Du-IxJ" firstAttribute="leading" secondItem="EUa-oy-b26" secondAttribute="leading" constant="45" id="fta-ne-itX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IgS-63-8Gb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1059.0697674418604" y="4.5064377682403434"/>
+        </scene>
     </scenes>
     <resources>
         <namedColor name="AccentColor">
@@ -83,6 +133,9 @@
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="viewFlipsideBackgroundColor">
             <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
